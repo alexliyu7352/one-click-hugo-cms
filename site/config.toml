@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://blog.8tv.me/"
 languageCode = "en-us"
 title = "Alex努力前行"
 theme = "hugo-future-imperfect"
