@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Hugo Future Imperfect"
+title = "Alex努力前行"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
@@ -10,9 +10,9 @@ pluralizeListTitles = false
 
 [params]
   # Sets the meta tag description
-  description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+  description          = "Python, golang, c++, android, p2p, stream server, and all by day"
   # Sets the navbarTitle that appears in the top left of the navigation bar
-  navbarTitle          = "Future Imperfect"
+  navbarTitle          = "Alex努力前行"
   # Sets where "View More Posts" links
   viewMorePostLink     = "/blog/"
 
@@ -59,11 +59,11 @@ pluralizeListTitles = false
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
-  header    = "Hugo Future Imperfect"
+  header    = "I was climbing"
 
-  paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
+  paragraph = "記錄前行中的點點滴滴, 一爲自己一爲家人, 未來並不完美, 但我相信未來會更好 <i class='fa fa-hand-peace-o'></i>"
 
-  about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+  about     = "混跡於互聯網與新媒體大潮中15年, 做過CODER也就練就十八般武藝, 做過高管也就管管幾百人, 做過老板也就搞過小有名氣的小公司, 做過SOHU也就開發過上千萬用戶的APP..但至今仍算得上事業無成, 仍舊繼續混跡與網路中,爲生活爲明天努力"
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
@@ -74,7 +74,7 @@ pluralizeListTitles = false
     # Sets Image to be Future Imperfect's hexagon
     imperfect = true
     width     = ""
-    alt       = "Hugo Future Imperfect"
+    alt       = "Alex努力前行"
 
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
@@ -123,7 +123,7 @@ pluralizeListTitles = false
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github          = "jpescador/hugo-future-imperfect"
+  github          = "github.com/alexliyu7352"
   gitlab          = ""
   stackoverflow   = "" # User Number
   bitbucket       = ""
@@ -131,7 +131,7 @@ pluralizeListTitles = false
   codepen         = ""
   # Visual Art Communities
   deviantart      = ""
-  flickr          = "example"
+  flickr          = ""
   behance         = ""
   dribbble        = ""
   # Publishing Communities
@@ -143,9 +143,9 @@ pluralizeListTitles = false
   xing            = ""
   slideshare      = ""
   # Social Networks
-  facebook        = "example"
+  facebook        = ""
   googleplus      = ""
-  reddit          = "example"
+  reddit          = ""
   quora           = ""
   youtube         = ""
   vimeo           = ""
@@ -153,13 +153,13 @@ pluralizeListTitles = false
     # WeChat and QQ need testing.
     wechat          = ""
     qq              = "" # User ID Number
-  instagram       = "example"
+  instagram       = ""
   tumblr          = ""
-  twitter         = "example"
+  twitter         = ""
   skype           = ""
   snapchat        = ""
-  pinterest       = "example"
-  telegram        = "example"
+  pinterest       = ""
+  telegram        = ""
   vine            = ""
   # Email
-  email           = "example"
+  email           = ""
