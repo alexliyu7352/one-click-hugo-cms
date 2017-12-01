@@ -7,7 +7,7 @@ date: 2017-11-30T16:00:00.000Z
 這個博客採用的開源技術有:
 
 * [GitHub 用於存儲](https://github.com)
-* [Netlift 用於網路託管](https://netlify.com)
+* [Netlify 用於網路託管](https://netlify.com)
 * [Netlify cms 用於在線編輯與管理](https://github.com/spf13/jWalterWeatherman)
 * [Hugo 用於靜態生成](https://gohugo.io)
 * [jpescador 模板](https://github.com/jpescador/hugo-future-imperfect)
