@@ -12,7 +12,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Slug", name: "m_slug", widget: "hidden"}
+      - {label: "Slug", name: "m_slug", widget: "string"}
       - {label: "author", name: "author", widget: "string"}
       - {label: "categories", name: "categories", widget: "list", default:[]}
       - {label: Type, name: type, widget: hidden, default: post}
@@ -47,7 +47,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Slug", name: "m_slug", widget: "hidden"}
+      - {label: "Slug", name: "m_slug", widget: "string"}
       - {label: "author", name: "author", widget: "string"}
       - {label: "categories", name: "categories", widget: "list", default:[]}
       - {label: Type, name: type, widget: hidden, default: itemized}
