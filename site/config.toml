@@ -1,5 +1,6 @@
 baseurl = "https://blog.8tv.me/"
-languageCode = "en-us"
+hasCJKLanguage = true
+languageCode = "zh-tw"
 title = "Alex努力前行"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
