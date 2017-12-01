@@ -1,87 +1,33 @@
 ---
-title: Getting Started
-author: Hugo author
+title: 開始新部落格
+m_slug: new begining
+author: Alex
 categories:
-  - Test
+  - Life
 type: post
-date: '2014-04-02'
-description: sdfsdf
+date: 2017-12-01T00:00:00+08:00
+description: 開始寫新的部落格記錄生活點滴
 featured: pic01.jpg
 featuredalt: Pic 1
 featuredpath: date
 linktitle: ''
 ---
+大概將近快20年前,我就開始寫部落格, 那時候只能使用各種免費的, 很簡單也支持的功能很少.
 
-## Step 1. Install Hugo
+後來慢慢的網路興起, 出現了各種的站點提供免費服務, 甚至一些SNS站點也提供類似的功能.我也用過不少, 斷斷續續寫部落格, 說實話寫了至少上千篇了.
 
-Go to [hugo releases](https://github.com/spf13/hugo/releases) and download the
-appropriate version for your os and architecture.
+可是呢一個問題就是, 網站會掛啊....好不容易寫了不少的內容, 折騰了1-2年了, 結果突然一下子宣布我們掛了, 這讓之前寫了那麼多年的內容就全部大了水漂. 那時我真想豎起懶覺去問候他們的家人. 當然, 也就是說說罷了..不然怎樣啊.後來也用過一些穩定的免費服務.
 
-Save it somewhere specific as we will be using it in the next step.
+但是要麼限制太多, 要麼導入導出不支持.總之就是可以寫, 但是卻寫的內容並不屬於你.因爲沒有辦法導出啊.....
 
-More complete instructions are available at [installing hugo](/overview/installing/)
-<!--more-->
+再後來就是自建伺服器來架設自己的部落格, 這樣想怎麼修改就怎麼修改.想怎麼玩就怎麼玩.那時候我甚至要求公司員工都要每天寫.
 
-## Step 2. Build the Docs
+可是呢...好吧...的確有可是.就是數據遷移很麻煩, 很麻煩, 很麻煩...自己公司使用還好, 有人維護, 但是私人寫的要麼最早租用伺服器空間, 要麼是後來的租用vps或者獨立伺服器.這要花錢不說, 關鍵是隨着年齡增加, 生活中或者工作上的事情也越來越多.常常會忘記繳費啊之類的事情出現.
 
-Hugo has its own example site which happens to also be the documentation site
-you are reading right now.
+結果就是有時候突然想起要寫了, 結果發現伺服器掛了...數據都沒有了...這真是一個悲哀的故事.
 
-Follow the following steps:
+現在呢, 又重新想起來要寫了.換成了靜態Blog, 應該可以使用很長一段時間吧????(主要還是看懶惰程度)
 
- 1. Clone the [hugo repository](http://github.com/spf13/hugo)
- 2. Go into the repo
- 3. Run hugo in server mode and build the docs
- 4. Open your browser to http://localhost:1313
+而從新開這個blog的目的也僅僅只是記錄一些點點滴滴, 一方面作爲備忘.一方面等以後兒子長大後可以給他看.
 
-Corresponding pseudo commands:
-
-    git clone https://github.com/spf13/hugo
-    cd hugo
-    /path/to/where/you/installed/hugo server --source=./docs
-    > 29 pages created
-    > 0 tags index created
-    > in 27 ms
-    > Web Server is available at http://localhost:1313
-    > Press ctrl+c to stop
-
-Once you've gotten here, follow along the rest of this page on your local build.
-
-## Step 3. Change the docs site
-
-Stop the Hugo process by hitting ctrl+c.
-
-Now we are going to run hugo again, but this time with hugo in watch mode.
-
-    /path/to/hugo/from/step/1/hugo server --source=./docs --watch
-    > 29 pages created
-    > 0 tags index created
-    > in 27 ms
-    > Web Server is available at http://localhost:1313
-    > Watching for changes in /Users/spf13/Code/hugo/docs/content
-    > Press ctrl+c to stop
-
-
-Open your [favorite editor](http://vim.spf13.com) and change one of the source
-content pages. How about changing this very file to *fix the typo*. How about changing this very file to *fix the typo*.
-
-Content files are found in `docs/content/`. Unless otherwise specified, files
-are located at the same relative location as the url, in our case
-`docs/content/overview/quickstart.md`.
-
-Change and save this file.. Notice what happened in your terminal.
-
-    > Change detected, rebuilding site
-
-    > 29 pages created
-    > 0 tags index created
-    > in 26 ms
-
-Refresh the browser and observe that the typo is now fixed.
-
-Notice how quick that was. Try to refresh the site before it's finished building.. I double dare you.
-Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.
-
-## Step 4. Have fun
-
-The best way to learn something is to play with it.
+至少能在教育小朋友學習的時候, 理直氣壯的告訴他:爸爸每天都有在學習哦,你看每天都有更新哦!
