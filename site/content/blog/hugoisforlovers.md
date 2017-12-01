@@ -2,7 +2,7 @@
 title: Getting Started
 author: Hugo author
 categories:
-  - Hugo
+  - Test
 type: post
 date: '2014-04-02'
 description: sdfsdf
