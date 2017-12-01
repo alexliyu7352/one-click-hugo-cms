@@ -5,9 +5,9 @@ author: Alex
 categories:
   - Life
 type: post
-date: 2017-12-01T00:00:00+08:00
+date: 2017-11-30T16:00:00.000Z
 description: 開始寫新的部落格記錄生活點滴
-featured: pic01.jpg
+featured: /images/uploads/pic01.jpg
 featuredalt: Pic 1
 featuredpath: date
 linktitle: ''
