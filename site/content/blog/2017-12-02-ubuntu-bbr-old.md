@@ -35,19 +35,16 @@ featuredpath: date
 - - -
 
 * **准备:**
-  ```
-  直接执行此命令进行开启BBR先.
-  ```
-  ```
+    直接执行此命令进行开启BBR先.
+    ```
   wget --no-check-certificate -qO 'BBR.sh' 'https://moeclub.org/attachment/LinuxShell/BBR.sh' && chmod a+x BBR.sh && bash BBR.sh -f
-  ```
-  ```
-  注意這個命令會導致重啓
-  ```
+    ```
+   注意這個命令會導致重啓
+
 * **安裝改動版本的BBR**
-  ```
+   ```
   wget --no-check-certificate -qO 'BBR_POWERED.sh' 'https://moeclub.org/attachment/LinuxShell/BBR_POWERED.sh' && chmod a+x BBR_POWERED.sh && bash BBR_POWERED.sh -f v4.11.9
-  ```
+   ```
 * **說明**
   * \-f 參數指定內核版本
   * 模块默认为开机自动加载.
