@@ -1,27 +1,15 @@
 ---
 title: About Me
-date: 2017-12-01T00:00:00+08:00
+date: 2017-11-30T16:00:00.000Z
 ---
-關於自己沒有什麼好介紹的.
+關於自己沒有什麼好介紹的.這個博客僅僅只是用來做一些日常的記錄.
 
-It makes use of a variety of open source projects including:
+這個博客採用的開源技術有:
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+* [GitHub 用於存儲](https://github.com)
+* [Netlift 用於網路託管](https://netlify.com)
+* [Netlify cms 用於在線編輯與管理](https://github.com/spf13/jWalterWeatherman)
+* [Hugo 用於靜態生成](https://gohugo.io)
+* [jpescador 模板](https://github.com/jpescador/hugo-future-imperfect)
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
-
-## Setup
-
-Some fun facts about [Hugo](http://gohugo.io/):
-
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+感謝以上的開源技術與開發者
