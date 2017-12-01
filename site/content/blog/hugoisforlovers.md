@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Hugo
+title: Getting Started
 author: Hugo author
 categories:
   - Hugo
