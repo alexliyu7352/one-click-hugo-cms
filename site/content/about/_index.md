@@ -1,10 +1,8 @@
 ---
 title: About Me
-date: '2014-04-09'
+date: 2017-12-01T00:00:00+08:00
 ---
-
-Hugo is a static site engine written in Go.
-
+關於自己沒有什麼好介紹的.
 
 It makes use of a variety of open source projects including:
 
