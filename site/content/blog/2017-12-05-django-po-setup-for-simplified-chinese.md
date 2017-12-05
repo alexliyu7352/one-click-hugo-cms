@@ -79,3 +79,12 @@ po.save()
 ```
 cconv -f UTF8-CN -t UTF8-TW ./locale/zh_Hans/LC_MESSAGES/django.po -o ./locale/zh_Hant/LC_MESSAGES/django.po
 ```
+
+---
+
+題外話, 如果有這種需求, 就是要把整個項目中的簡體轉換成繁體或者繁體轉換成簡體, 那麼也很簡單, 一樣使用cconv來轉換, 只需要一行代碼即可.
+
+```
+find . -type f -name '*.py' -exec cconv -t UTF8-CN -f UTF8-TW {} -o {}.result \; -exec mv {}.result {} \;
+
+```
