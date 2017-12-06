@@ -21,10 +21,16 @@ featuredpath: date
 但是其實在上面我說的這兩個IDE中不用那麼麻煩, 只需要在設置中設置一下即可完成編譯.設置時需要注意幾點(設置是在**File---settings---language & frameworks---typescript**裏面設置):
 
 1. 配置好nodejs以及安裝typescript, 這個應該大家都會
-2. 在**Compile scope**中新建一個scope, 並且包含您要編譯的源碼目錄.(這裏注意, 如果你有引用d.ts的定義文件請排除在編譯目錄以外)
-3. **Options**中設置參數--outFile /path/xxx.js 這個參數可以讓typescript輸出一個單一的文件, 便於管理.
-4. 選擇上Use output path,並且設置爲上面3的路徑相同, 這樣可以讓生成的文件在這個路徑下
-5. 編譯的時候只需要在typescript的窗口左側的按鈕上選擇Compile all即可編譯成功, 並且生成一個單一的文件.
+2. 在源碼下創建一個用來引用所有模組的app.ts文件, 裏面使用**reference **引用所有需要編譯的模組文件,如:
+   ```
+   /// <reference path="./views/devices.ts" />
+   /// <reference path="./views/helpdesk.ts" />
+   /// <reference path="./views/users.ts" />
+   ```
+3. 在**Compile scope**中新建一個scope, 並且包含您要編譯的源碼目錄.(這裏注意, 如果你有引用d.ts的定義文件請排除在編譯目錄以外)
+4. 選擇上**Compile main file only**選項, 并且設置路徑爲步驟2所創建的這個引用文件.
+5. **Options**中設置參數**–outFile /path/xxx.js **這個參數可以讓typescript輸出一個單一的文件, 便於管理.
+6. 編譯的時候只需要在typescript的窗口左側的按鈕上選擇**Compile all**即可編譯成功, 並且生成一個單一的文件.或者選擇上**reCompile on changes**選項, 這樣一旦某個文件修改了就會自動重新編譯
 
 生成了單一文件後即可使用webpack或者其他的打包工具進行打包.但是如果項目比較簡單那麼可以直接對上面操作編譯生成的單一的javascript文件進行壓縮加密. 這裏就需要用到另一個工具了:**uglifyjs2**
 
