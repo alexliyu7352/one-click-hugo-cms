@@ -6,7 +6,7 @@ date: 2017-11-30T16:00:00.000Z
 
 這個博客採用的開源技術有:
 
-* [GitHub 用於存儲](https://github.com)
+* [GitHub 用於存儲](https://github.com/alexliyu7352)
 * [Netlify 用於網路託管](https://netlify.com)
 * [Netlify cms 用於在線編輯與管理](https://github.com/spf13/jWalterWeatherman)
 * [Hugo 用於靜態生成](https://gohugo.io)
